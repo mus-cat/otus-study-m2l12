@@ -1,0 +1,11 @@
+[global]
+ioengine=libaio
+blocksize=4k
+direct=1
+iodepth=1
+runtime=600
+random_generator=lfsr
+filename=./file.rnd
+[reader]
+numjobs=20
+rw=randread
